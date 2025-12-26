@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(202, 247, 247);
+}
+h1{
+    background-color: rgb(191, 153, 226);
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+table, tr, td{
+    border:1px solid black;
+    border-collapse:collapse;
+    width:80%;
+    height:40%;
+    text-align: center;
+    background-color: rgb(202, 221, 221);
+}
+td{
+    vertical-align: middle;
+}
+td:hover{
+    background-color:blue;
+    color:solid black;
+}
+li:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+    color:blue;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin:auto;
+}
+tr:nth-child(odd){
+    background-color: aliceblue;
+}
+tr:nth-child(odd):hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+}
+tr:nth-child(even){
+    background-color: rgb(4, 126, 233);
+}
+tr:nth-child(even):hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+}
+
