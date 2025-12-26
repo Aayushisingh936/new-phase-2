@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(237, 238, 205);
+}
+h1{
+    text-align: center;
+    background-color: rgb(238, 213, 163);
+}
+.container{
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.card{
+    background:rgb(238, 213, 163);
+    width: 350px;
+    height: 300px;
+    margin:8px;
+    border-radius: 15px 15px 0 0;
+}
+    div:hover{
+        background-color: rgb(164, 164, 230);
+    }
+li:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+    color:black;
+}
+h2:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+    color:rgb(179, 55, 162);
+}
+h1:hover{
+    transform:scale(1.02);
+    box-shadow: 0 8px 25px;
+    color:blue;
+}  
+@media screen {
+    .card {
+        height: fit-content;
+        width: fit-content;
+
+    }
+         
+}
