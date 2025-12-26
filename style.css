@@ -1,0 +1,38 @@
+header {
+    text-align: center;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height:1.6;
+    background-color:rgb(221, 191, 191);
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    background-color:rgb(226, 139, 139);
+}
+p{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+p:hover{
+    transform:scale(1.02);
+    box-shadow: 0 8px 25px;
+    color:blue;
+
+}
+li:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+    color:blue;
+}
+h1:hover{
+    transform:scale(1.02);
+    box-shadow: 0 8px 25px;
+    color:blue;
+}
+div:hover{
+        background-color: rgb(164, 164, 230);
+    }
