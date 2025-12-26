@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(197, 235, 235);
+}
+h1{
+    text-align: center;
+    background-color:rgb(187, 187, 236) ;
+    color:rgb(126, 11, 11);
+}
+h2{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color:rgb(143, 13, 13);
+}
+p{
+    text-align: center;
+}
+p:hover{
+    transform: scale(1.02);
+    box-shadow:0 8px 25px;
+    color: blue;
+}
+h2:hover{
+     transform: scale(1.02);
+     box-shadow:0, 8px 25px;
+     background-color: blue;         
+}
+li:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+    color:blue;
+}
+h1:hover{
+    transform:scale(1.02);
+    box-shadow: 0 8px 25px;
+    color:blue;
+}
