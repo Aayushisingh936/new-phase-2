@@ -1,0 +1,54 @@
+h1{
+    text-align:center;
+}
+body{
+    background-color: rgb(248, 240, 228);
+}
+h1{
+    background-color: rgb(218, 194, 164);
+}
+img{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 5px solid black;
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+img:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+}
+h2{
+    color:blue;
+}
+h3{
+    color:rgb(127, 8, 238);
+}    
+li:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+    color:blue;
+}
+h3:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+    color:blue;
+}
+h2:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+    color:blue;
+}
+p:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+    color:blue;
+}
+h1:hover{
+    transform:scale(1.02);
+    box-shadow: 0 8px 25px;
+    color:blue;
+}
