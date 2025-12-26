@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my feedback page</title>
+    <link rel="stylesheet" href="Feedback.css">
+</head>
+<body>
+        <nav>
+      <ul>
+        <li><a href="index.html">🏠Home</a></li>
+        <li><a href="profile.html">👤Profile</a></li>
+        <li><a href="courses.html">📚Courses</a></li>
+        <li><a href="grades.html">📊Grades</a></li>
+        <li><a href="Feedback.html">📝Feedback</a></li>
+        <li><a href="contact.html">📞Contat Us</a></li>
+        </ul>
+     </nav>
+         <h1><u>📝Feedback Form</u></h1>
+         
+         <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="emai" name="email"placeholder="Enter your Email" required><br><br>
+
+        <label for="type">Feedback Type:</label><br>
+        <select id="type" name="type">
+        <option value="general">General</option>
+        <option value="suggestion">Suggestion</option>
+        <option value="issue">Issue</option>
+        </select><br><br>
+        <label>Rate our website:</label><br>
+      <input type="radio" id="excellent" name="ratting" value="excellent">
+      <label for="excellent">Excellent</label><br>
+      <input type="radio" id="good" name="ratting" value="Good">
+      <label for="good">Good</label><br>
+      <input type="radio" id="average" name="ratting" value="average">
+      <label for="average">Average</label><br>
+      <input type="radio" id="poor" name="ratting" value="Poor">
+      <label for="Poor">Poor</label><br><br>
+      <label for="message">Your feedback</label>
+      <br><br>
+      <textarea id="message" name="message" rows="5" placeholder="write your feedback here..."></textarea>
+      <br>
+      <button type="submit">Submit Feedback</button>
+    </from>
+    
+</body>
+</html>
