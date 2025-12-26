@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    color:Light rgb(223, 221, 221);
+}
+img{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+     border-radius: 50%;
+    border: 5px solid black;
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+header{
+    text-align: center;
+}
+.resume-container{
+    background-color:rgb(183, 160, 204);
+    width: 70%;
+    margin: 30px auto;
+    padding: 20px 40px;
+    
+}
+img:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+}
+li:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+    color:blue;
+}
+h3:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+    color:blue;
+}
+h2:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+    color:blue;
+}
+p:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px;
+    color:blue;
+}
+h1:hover{
+    transform:scale(1.02);
+    box-shadow: 0 8px 25px;
+    color:blue;
+}
